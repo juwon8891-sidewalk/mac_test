@@ -31,7 +31,4 @@ jobs:
       - name: Generate Keystore file from Github Secrets
         run: |
           echo "${{ secrets.GOOGLE_CREDENTIALS }}" > ./gc_keys.json
-
-        
-      - uses: maierj/fastlane-action@v3.0.0
       - run: fastlane beta
