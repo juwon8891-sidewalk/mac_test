@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate Keystore file from Github Secrets
         run: |
-          echo "${{ secrets.GOOGLE_CREDENTIALS }}" > ./gc_keys.json
-
+          echo "${{ secrets.GOOGLE_CREDENTIALS_B64 }}" > ./gc_keys.b64
+          base64 -d -i gc_keys.b64 > gc_keys.json
       - name: Run Fastlane
         run: bundle exec fastlane beta
