@@ -14,6 +14,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - run: bundle lock --add-platform x86_64-darwin-20
+      
       - name: Install Ruby
         uses: ruby/setup-ruby@v1
         with:
