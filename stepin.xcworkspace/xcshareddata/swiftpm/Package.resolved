@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "facebook-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/facebook-ios-sdk",
+      "state" : {
+        "revision" : "c3d367656ae8ced1149c2c6a5e6b5dd91ecad63c",
+        "version" : "9.3.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "c75584ac759cbb16b204d0a7de3ebf53ea6b304d",
+        "version" : "7.9.0"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "d6feea26a370019b4d3a85f5984cb95a2734776f",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
+        "version" : "5.6.0"
+      }
+    },
+    {
+      "identity" : "stepin-app-ios-sds",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SidewalkEnt/stepin-app-iOS-SDS",
+      "state" : {
+        "revision" : "d56879d64684c1e186a471ec80ed8c17a4e9e0e3",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "swiftsvg",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mchoe/SwiftSVG",
+      "state" : {
+        "branch" : "master",
+        "revision" : "88b9ee086b29019e35f6f49c8e30e5552eb8fa9d"
+      }
+    }
+  ],
+  "version" : 2
+}

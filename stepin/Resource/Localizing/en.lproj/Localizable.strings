@@ -1,0 +1,377 @@
+//login View
+"auth_google_button_title" = "Continue with Google";
+"auth_facebook_button_title" = "Continue with Facebook";
+"auth_apple_button_title" = "Continue with Apple";
+"auth_email_button_title" = "Continue with Email";
+"auth_login_button_title" = "Login with Email";
+
+//terms View
+"auth_terms_title" = "STEPIN\nTerms & Conditions";
+"auth_terms_all_agree_title" = "I agree to all Terms & Conditions.";
+"auth_terms_text1" = "STEPIN End User License Agreement";
+"auth_terms_text2" = "Collection and Use of Personal Information";
+"auth_terms_text3" = "(Optional) I consent to receive emails and push notifications about events, offers and updates.";
+"auth_terms_text5" = "Purpose of collection of personal information(purpose of use)"; //제거 필요
+"auth_terms_and_condition_button_title" = "Terms & Conditions";
+"auth_terms_button_title" = "NEXT";
+
+//Email verify
+"auth_email_Verify_navigation_title" = "Sign up";
+"auth_email_Verify_title" = "Enter your e-mail address";
+"auth_email_Verify_placeholder" = "STEPIN@email.com";
+"auth_email_Verify_noti_alreadyuse" = "This e-mail is already in use.";
+"auth_email_Verify_Available_email" = "Available e-mail address";
+"auth_email_Verify_button_title_send" = "Submit";
+"auth_email_Verify_button_title_next" = "Confirmed";
+"auth_email_Verify_send_complete_description" = "Please tap on the link to you e-mail.\nCheck your spam folder if you can't find it.";
+"auth_email_not_exist_title" = "This email does not exist.";
+
+
+//Password
+"auth_password_title" = "Please create a password";
+"auth_password_option_alphabet" = "Alphabet included.";
+"auth_password_option_number" = "Number included.";
+"auth_password_option_count" = "8-20 characters long.";
+"auth_password_button_title" = "NEXT";
+
+//BirthDate
+"auth_birthDate_title" = "When's your birthday?";
+"auth_birthDate_sub_title" = "Your birthday won’t be shown publicly.";
+"auth_birthDate_placeholder" = "Birthday";
+"auth_birthDate_age_noti_kr" = "You must be 14 years old or above to access and use STEPIN.";
+"auth_birthDate_age_noti" = "You must be 13 years old or above to access and use STEPIN.";
+"auth_birthDate_button_title" = "NEXT";
+
+//ID
+"auth_id_title" = "Please create your STEPIN ID";
+"auth_id_placeholder" = "Stepin ID";
+"auth_id_default_noti" = "STEPIN IDs must be 5-12 characters long and can only contain letters and numbers.";
+"auth_id_contain_num_alpahbet_noti" = "User IDs can only contain letters and numbers";
+"auth_id_contain_already_use_noti" = "This STEPIN ID is already in use.";
+"auth_id_contain_Complete_noti" = "We love your ID!\nPlease press Sign up.";
+"auth_id_contain_profanity_word" = "Submitted ID cannot be used";
+"auth_id_button_title" = "NEXT";
+
+//Email Login
+"auth_email_login_title" = "Login with Email";
+"auth_email_login_id_placeholder" = "STEPIN@email.com";
+"auth_email_login_pwd_placeholder" = "Password";
+"auth_email_login_forgot_button_title" = "Forgot Password?";
+"auth_email_login_login_button_title" = "Login";
+"auth_email_login_incorrect_noti" = "Please enter the correct e-mail and password.";
+
+//find pwd
+"auth_findpwd_navigation_title" = "Reset password";
+"auth_findpwd_title" = "Please enter a new password";
+"auth_findpwd_placeholder" = "your@email.com";
+"auth_findpwd_send_button_title" = "Submit";
+"auth_findpwd_confirm_button_title" = "Confirmed";
+
+
+//Tabbar
+"tabbar_home_title" = "Home";
+"tabbar_boogie_title" = "Boogie";
+"tabbar_play_title" = "Play";
+"tabbar_history_title" = "History";
+"tabbar_my_title" = "My";
+
+//Report
+"alert_report_title" = "Report";
+"alert_report_dont_like" = "I just don’t like it";
+"alert_report_spam" = "Contains spam or scam";
+"alert_report_naked" = "Nudity or sexual activity";
+"alert_report_fraoud" = "Fraud or falsehood";
+"alert_report_cancel" = "Cancel";
+
+//Mypage bottom Sheet
+"mypage_bottomsheet_following" = "Following";
+"mypage_bottomsheet_follow" = "Follow";
+"mypage_bottomsheet_share" = "Share";
+"mypage_bottomsheet_speed" = "Speed";
+"mypage_bottomsheet_save" = "Save";
+"mypage_bottomsheet_boost" = "Boost";
+"mypage_bottomsheet_blocking" = "Block user";
+"mypage_bottomsheet_Report" = "Report";
+"mypage_bottomsheet_delete" = "Delete";
+"mypage_bottomsheet_modify" = "Modify";
+
+
+
+//Toast
+"toast_check_email" = "Please check your confirmation email.";
+
+
+//Mypage
+"mypage_dances_button_title" = "Dances";
+"mypage_followers_button_title" = "Followers";
+"mypage_following_button_title" = "Following";
+"mypage_editProfile_button_title" = "Edit profile";
+"mypage_shareProfileProfile_button_title" = "Share profile";
+"mypage_follow_button_title" = "Follow";
+"mypage_following_button_title" = "Following";
+"mypage_boost_button_title" = "Boost";
+"mypage_loading_view_title" = "loading";
+"mypage_block_button_title" = "Block";
+"mypage_unblock_button_title" = "Unblock";
+
+
+//Edit my page
+"edit_mypage_stepin_id_text_field_title" = "STEPIN ID";
+"edit_mypage_nickname_text_field_title" = "Nickname";
+"edit_mypage_stepin_id_noti_unavalible_title" = "This user ID is not available.";
+"edit_mypage_contain_already_use_noti" = "This user ID is already in use";
+"edit_mypage_stepin_id_noti_avalible_title" = "This user ID is available.";
+"edit_mypage_stepin_nickname_noti_unavalible_title" = "Nicknames must contain more than 5 letters.";
+"edit_mypage_stepin_nickname_noti_avalible_title" = "This nickname is available.";
+"edit_mypage_navigation_title" = "Edit Profile";
+"edit_mypage_navigation_done_button_title" = "Done";
+"edit_mypage_textfield_id_title" = "STEPIN ID";
+"edit_mypage_textfield_nickname_title" = "Nickname";
+
+"edit_mypage_bottom_alert_title" = "Choose your profile picture and dance ";
+"edit_mypage_bottom_alert_profilepicture_title" = "Select profile image from album";
+"edit_mypage_bottom_alert_backgroundpicture_title" = "Select profile background dance";
+"edit_mypage_bottom_alert_cancel" = "cancel";
+"edit_mypage_choose_profile_image_title" = "Edit Profile Picture";
+"edit_mypage_choose_profile_done_button_title" = "Done";
+
+//Setting View
+"setting_navigation_title" = "Settings";
+"setting_auto_save_title" = "Autosave";
+"setting_auto_save_description" = "All dance videos will be automatically saved in your History.";
+"setting_auto_delete_title" = "Auto delete";
+"setting_auto_delete_description" = "Automatically deleting the oldest dance video without prior notice when the storage is full.";
+"setting_push_title" = "Push Notifications";
+"setting_push_description" = "Receive all push notifications.";
+"setting_show_score_title" = "Show score";
+"setting_show_score_description" = "Displaying the score for all dances.";
+"setting_Manage_blocked_title" = "Manage Blocked Users";
+"setting_terms_title" = "Terms and Conditions";
+"setting_privacy_title" = "Privacy Policy";
+"setting_EULA_title" = "EULA";
+"setting_news_boards_title" = "News Board";
+"setting_app_version_title" = "App version";
+"setting_enter_code_title" = "Enter code";
+"setting_enter_code_notcorrect_title" = "This code is not correct code.";
+"setting_enter_code_correct_title" = "Code entry completed successfully.";
+"setting_logout_title" = "Log out";
+"setting_logout_description" = "Log out of your account";
+"setting_deleteAccount_description" = "Delete Account >";
+
+"setting_withdrawal_Title" = "We’ll miss you!";
+"setting_withdrawal_description" = "Once you delete your account, all your content will be permanently removed.
+If you confirm, please enter your STEPIN ID below.";
+
+"setting_signout_Title" = "Log out";
+"setting_signout_description" = "Would you like to Log Out?";
+
+"setting_alert_cancel_button_title" = "Cancel";
+"setting_alert_ok_button_title" = "OK";
+"setting_alert_placeholder_title" = "Stepin ID";
+
+
+//Manage Block View
+"manageblock_navigation_title" = "Blocked Users";
+"manageblock_unblock_button_title" = "Blocked";
+"manageblock_release_button_title" = "Block";
+"manageblock_empty_view_title" = "No users are blocked";
+
+
+//Follow view
+"show_follow_follower_tab_title" = "Followers";
+"show_follow_following_tab_title" = "Following";
+"show_follow_search_placeholer_title" = "Search";
+"show_follow_delete_button_title" = "Delete";
+"show_follow_blue_follow_button_title" = "Follow";
+"show_follow_follow_button_title" = "Follow";
+"show_follow_following_button_title" = "Following";
+
+//SearchBar
+"searchbar_placeholer_title" = "Search";
+
+//AlterView
+"alert_view_ok_title" = "OK";
+"alert_view_delete_follower_description" = "Are you sure you want to remove this follower?";
+
+
+//Blocked User view
+"block_view_block_button_title" = "Block user";
+"block_view_unblock_button_title" = "Unblock";
+"block_view_Dances_button_title" = "Dances";
+"block_view_followers_button_title" = "followers";
+"block_view_following_button_title" = "following";
+"block_view_block_description" = "You blocked ";
+"block_view_unblock_description" = "You unblocked ";
+
+
+//CommentView
+"comment_view_placeholder_title" = "Leave a comment.";
+"comment_view_replyComment" = "Reply";
+"comment_view_comment" = "Comments";
+"comment_view_done_button_title" = "Done";
+
+
+//DanceView
+"dance_view_navigation_title" = "Dance";
+"dance_view_ranking_button_title" = "Ranking";
+"dance_view_hot_button_title" = "Hot";
+"dance_view_hot_empty_view_description" = "There're no dances for this song yet. Be the first to upload!";
+"dance_view_empty_view_description" = "No users have entered the ranking.\nTry to make it into the rankings!";
+"dance_view_block_text" = "Blocked";
+
+//ProfileView
+"profile_view_more_text" = "...more";
+
+//History View
+"history_view_score_text_perfect" = "Perfect";
+"history_view_score_text_great" = "Great";
+"history_view_score_text_good" = "Good";
+"history_view_score_text_bad" = "Bad";
+"history_view_score_text_miss" = "Miss";
+"history_view_selected_noti" = "Dance selected";
+"history_view_select_all_button_title" = "Select All";
+"history_view_save_button_title" = "Save";
+"history_view_delete_button_title" = "Delete";
+"history_view_delete_description" = "Are you sure you want to delete the dance? If you delete it, it's deleted.";
+"history_view_loading_title" = "Applying NEON!";
+"history_view_loading_estimate_time_title" = "Estimated time required";
+"history_view_loading_description" = "If you leave the screen, all operations will be canceled.";
+"histroy_loading_view_cancel_button_title" = "Cancel";
+"history_highlight_navigation_title" = "Highlights";
+
+"history_upload_fail_title" = "Failed upload video. Try again";
+//history detail
+"history_detail_upload_button_title" = "Upload";
+
+//editVideo
+"edit_video_view_navigation_title" = "Edit Dance";
+"edit_video_view_change_view_button" = "View";
+"edit_video_view_change_neon_button" = "NEON";
+"edit_video_view_next_button_title" = "Continue";
+"edit_video_view_apply_button_title" = "Apply";
+
+//new dance
+"thumbnail_view_navigation_title" = "Thumbnail";
+"thumbnail_view_done_button_title" = "Done";
+"new_dance_view_navigation_title" = "New Dance";
+"new_dance_view_place_holder" = "Write a caption\n\n\nYou can select the thumbnail by tapping the picture on the left.";
+"new_dance_view_hashtag_title" = "Add Hashtags";
+"new_dance_view_hashtag_subtitle" = "You can use up to three hashtags.";
+"new_dance_view_display_title" = "Display score";
+"new_dance_view_allowComment_title" = "Allow Comments";
+"new_dance_view_upload_button_title" = "Upload";
+"new_dance_view_upload_alert_title" = "Warning";
+"new_dance_view_upload_alert_description" = "If you leave now, your dance editing will be discarded.";
+"new_dance_upload_complete_toast_title" = "The dance has been posted.";
+
+//search view
+"searchView_navigation_place_holder_title" = "Search";
+"searchView_hot_dance_view_title" = "Hot Dance";
+"searchView_recent_searches_view_title" = "Recent searches";
+"searchView_hot_tab_title" = "Hot";
+"searchView_Account_tab_title" = "Account";
+"searchView_Dance_tab_title" = "Dance";
+"searchView_hashtags_tab_title" = "Hashtags";
+"searchView_hashtags_tab_empty_description" = "There are no videos for this dance yet.";
+
+//bottom sheet
+"bottom_sheet_save_video_title" = "Save dance";
+
+//play Game
+"play_game_hot_dance_tab_title" = "Hot Dance";
+"play_game_my_dance_tab_title" = "My Dance";
+"play_game_choose_song_type_description" = "Is this the song you choose?";
+"play_game_choose_song_challenge" = "Challenge";
+"play_game_choose_song_practice" = "Practice";
+"play_game_choose_song_ok_button_title" = "OK";
+"play_game_choose_song_cancel_button_title" = "Cancel";
+"play_game_loading_challenge_game_title" = "Challenge";
+"play_game_loading_challenge_game_readybutton_title" = "Ready!";
+"play_game_loading_challenge_game_body_zoom_title" = "Body Zoom";
+
+"play_game_alert_description_text" = "Is this the song you chose?";
+"play_game_alert_challenge_button_title" = "Challenge";
+"play_game_alert_practice_button_title" = "Practice";
+"play_game_alert_ok_button_title" = "OK";
+"play_game_alert_cancel_button_title" = "Cancel";
+"play_game_alert_readyToPlay_title" = "It starts when you adjust your body to the line!";
+
+"play_game_warning_description" = "There may be restrictions on your play because your device does not meet the technical requirements. Would you like to continue? If not, please tap on Cancel (the deducted energy will not be returned).";
+"play_game_warning_ok_button_title" = "OK";
+"play_game_warning_ok_button_cancel" = "Cancel";
+"play_game_start_dance_title" = "Dance!";
+"play_game_end_dance_title" = "Finish!";
+
+"play_game_done_button_title" = "Done";
+"play_game_continue_button_title" = "Continue";
+
+"play_game_exit_warning_title" = "Warning";
+"play_game_exit_warning_description" = "Do you want to end the dance?\nUnable to recover after shutdown.";
+
+//Induce Login
+"induce_login_play_game_title" = "Do you want to enjoy the game?";
+"induce_login_history_title" = "Do you want to use History?";
+"induce_login_mypage_title" = "Please create my profile!";
+"induce_login_signup_button_title" = "Sign Up";
+
+//inbox
+"inbox_navigation_title" = "Inbox";
+"inbox_follow_button_title" = "follow";
+"inbox_following_button_title" = "following";
+
+//splash
+"splash_new_version_released_title" = "New version released";
+"splash_new_version_released_description" = "Please update to the new STEPIN version in the store";
+"splash_new_version_quit_button_title" = "Quit";
+"splash_new_version_link_button_title" = "Link";
+
+//Web
+"webView_agree_button_title" = "Agree";
+
+//store
+"store_title_text" = "Energy shop";
+
+//inbox
+"inbox_comment_description" = "commented on your dance.";
+"inbox_reply_description" = "replied to your comment.";
+"inbox_like_description" = "liked your dance";
+"inbox_follow_description" = "started following you.";
+"inbox_like_comment_description" = "liked your comment";
+"inbox_like_reply_description" = "liked your reply";
+"inbox_rank_out_second_description" = "by rank has slipped down to second place.";
+"inbox_rank_out_third_description" = "rank is out of top three.";
+"inbox_rank_in_first_description" = "by rank is on ther first place now.";
+"inbox_rank_in_second_description" = "by rank is on ther second place now.";
+"inbox_rank_in_third_description" = "by rank is on ther third place now.";
+
+
+//Noti
+"noti_link_copy_description" = "Link copied to clipboard";
+
+
+//Modify
+"modify_navigation_title" = "Modify";
+"modify_dance_done_button_title" = "Done";
+
+
+//save video permission alert
+"video_permission_title" = "Photo Library Unavailable";
+"video_permission_description" = "To save videos, change your settings to allow “STEPIN” access your photos.";
+
+//BoostTextFieldAlertView
+"boost_textField_alert_title" = "Boost";
+"boost_textField_alert_text" = "Maximum boost:100";
+"boost_textField_alert_description" = "How much energy would you boost";
+"boost_textField_alert_okButton" = "OK";
+"boost_textField_alert_cancelButton" = "Cancel";
+
+
+// BoostAlertView
+"boost_alert_title" = "Boost";
+"boost_alert_text" = "1 Day 1 Free";
+"boost_alert_description" = "You can only boost once for free each day. Are you sure you want to boost now?";
+"boost_alert_okButton" = "OK";
+"boost_alert_cancelButton" = "Cancel";
+
+//home
+"home_signup_button_title" = "Sign Up!";
