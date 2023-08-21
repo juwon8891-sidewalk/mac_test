@@ -29,11 +29,13 @@ jobs:
 
       - name: Pod install
         run: pod install
+        
+      - name: Generate Keystore file from Github Secrets
+        run: |
+          echo "${{ secrets.GOOGLE_CREDENTIALS }}" > ./gc_keys.json
 
       - name: Run Fastlane
         run: bundle exec fastlane build_and_test
   
-      - name: Generate Keystore file from Github Secrets
-        run: |
-          echo "${{ secrets.GOOGLE_CREDENTIALS }}" > ./gc_keys.json
+
       - run: fastlane beta
