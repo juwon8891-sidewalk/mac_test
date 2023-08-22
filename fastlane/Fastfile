@@ -1,12 +1,12 @@
 default_platform(:ios)
 
-apple_id("juwon8891@sidewalkplay.com")
-use_keychain(true) # credentials_manager 사용 설정
+# use_keychain(true) # credentials_manager 사용 설정
+
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
-    password = ENV['FASTLANE_PASSWORD']
+    setup_ci # if ENV['CI']
 
     # match는 appstore 타입으로 실행됨
     match(type: "appstore")
