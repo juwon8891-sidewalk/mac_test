@@ -37,4 +37,5 @@ jobs:
           base64 -d -i gc_keys.b64 > gc_keys.json
       - name: Run Fastlane
         run: |
+          security find-identity -v -p codesigning
           bundle exec fastlane beta
