@@ -127,3 +127,4 @@ stepin/Resource/Info.plist
 stepin/Resource/GoogleService-Info.plist
 *ds_store
 gc_keys.json
+**.env

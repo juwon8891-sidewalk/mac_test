@@ -1072,40 +1072,6 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
-		63E2452C2A84C58C00DD56E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63E245302A84C58C00DD56E4 /* ProgressValueKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		63E245312A84C58D00DD56E4 /* VideoKit */ = {
-			isa = PBXGroup;
-			children = (
-				63E245322A84C58D00DD56E4 /* VideoView.swift */,
-			);
-			path = VideoKit;
-			sourceTree = "<group>";
-		};
-		63E245332A84C58D00DD56E4 /* ProgressValueKit */ = {
-			isa = PBXGroup;
-			children = (
-				63E245342A84C58D00DD56E4 /* FrameSlider.swift */,
-				63E245352A84C58D00DD56E4 /* ProgressValueKit.h */,
-				63E245362A84C58D00DD56E4 /* ProgressValueController.swift */,
-			);
-			path = ProgressValueKit;
-			sourceTree = "<group>";
-		};
-		63E245372A84C58D00DD56E4 /* NeonKit */ = {
-			isa = PBXGroup;
-			children = (
-				63E245382A84C58D00DD56E4 /* NeonView.swift */,
-			);
-			path = NeonKit;
-			sourceTree = "<group>";
-		};
 		63F0856A2A89BEE9006833A0 /* CustomPageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -3864,7 +3830,6 @@
 				879BD9D329CA07690016091D /* WhiteBlurButton.swift in Sources */,
 				87DE92A12A17407E00290178 /* LayerToImageConverter.swift in Sources */,
 				63F0856E2A89CB66006833A0 /* CustomPageViewHandler.swift in Sources */,
-				8758677F29B1C43600269DD2 /* SSFFullScreenVideoView.swift in Sources */,
 				877E80552A78198700B06675 /* CountDownProtocol.swift in Sources */,
 				87AF6DC8299B63A60071A4FB /* BaseProfileCollectionHeaderView.swift in Sources */,
 				871F962129FD97CA005A5046 /* InboxVC.swift in Sources */,
@@ -4137,7 +4102,7 @@
 				CODE_SIGN_ENTITLEMENTS = stepin/stepin.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_TEAM = 4B47QL89TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stepin/Resource/Info.plist;
@@ -4155,7 +4120,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.5;
+				MARKETING_VERSION = 1.1.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidewalk.stepin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4182,7 +4147,7 @@
 				CODE_SIGN_ENTITLEMENTS = stepin/stepin.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_TEAM = 4B47QL89TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stepin/Resource/Info.plist;
@@ -4200,7 +4165,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.5;
+				MARKETING_VERSION = 1.1.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidewalk.stepin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
