@@ -39,7 +39,7 @@ jobs:
 
       - run: |
           mkdir -p stepin/Resource/Models
-          cp -r gs://ios-fastlane-cert/Models/ stepin/Resource/Models/
+          gsutil cp -r gs://ios-fastlane-cert/Models/ stepin/Resource/Models/
 
       - name: Generate Keystore file from Github Secrets
         run: |
