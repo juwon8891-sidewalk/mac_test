@@ -8,7 +8,7 @@ platform :ios do
   lane :beta do
     before_all do
     unlock_keychain(
-      path: "login.keychain-db.keychain",
+      path: "login.keychain-db",
       password: "3325"
     )
   end
