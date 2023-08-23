@@ -11,9 +11,13 @@ jobs:
     runs-on: macos-latest
 
     steps:
+      
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - run: |
+          echo "${{ secrets.FASTLANE_ENV }}" > ./fastlane/.env
+          cat ./fastlane/.env
       - run: bundle lock --add-platform x86_64-darwin-20
 
       - name: Install Ruby
