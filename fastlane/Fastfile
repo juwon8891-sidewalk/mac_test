@@ -9,7 +9,7 @@ platform :ios do
     unlock_keychain(
       path: "login.keychain-db",
       password: "3325",
-      add_to_search_list: :replace
+      set_default: true
     )
     # setup_ci
     
