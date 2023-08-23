@@ -37,5 +37,4 @@ jobs:
           base64 -d -i gc_keys.b64 > gc_keys.json
       - name: Run Fastlane
         run: |
-          export CI=true
           bundle exec fastlane beta
