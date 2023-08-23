@@ -24,8 +24,8 @@ platform :ios do
       workspace: "stepin.xcworkspace",
       scheme: "stepin"
     )
-
+    
     # TestFlight에 업로드
-    upload_to_testflight()
+    upload_to_testflight(skip_waiting_for_build_processing: true)
   end
 end
