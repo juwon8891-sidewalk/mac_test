@@ -6,7 +6,7 @@ default_platform(:ios)
 platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
-    setup_ci # if ENV['CI']
+    setup_ci if ENV['CI']
 
     # match는 appstore 타입으로 실행됨
     match(type: "appstore")
@@ -21,7 +21,6 @@ platform :ios do
     )
 
     # TestFlight에 업로드
-    # upload_to_testflight(username: username, password: password)
     upload_to_testflight()
   end
 end

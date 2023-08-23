@@ -4102,7 +4102,7 @@
 				CODE_SIGN_ENTITLEMENTS = stepin/stepin.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = 4B47QL89TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stepin/Resource/Info.plist;
@@ -4147,7 +4147,7 @@
 				CODE_SIGN_ENTITLEMENTS = stepin/stepin.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = 4B47QL89TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stepin/Resource/Info.plist;
