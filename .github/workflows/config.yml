@@ -29,6 +29,17 @@ jobs:
 
       # - name: Pod install
       #   run: pod install
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v1'
+
+      - name: Authenticate with Google Cloud
+        uses: 'google-github-actions/auth@v1'
+        with:
+          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+
+      - run: |
+          mkdir -p stepin/Resource/Models
+          cp -r gs://ios-fastlane-cert/Models/ stepin/Resource/Models/
 
       - name: Generate Keystore file from Github Secrets
         run: |
@@ -39,8 +50,5 @@ jobs:
           security find-certificate -a -c 'Apple Worldwide Developer Relations' -p /Users/runner/Library/Keychains/login.keychain-db
       - name: Run Fastlane
         run: |
-
-          # bundle exec fastlane match appstore
-          # security find-identity -v -p codesigning
           export FASTLANE_PASSWORD=Wndnjs1@34
           bundle exec fastlane beta

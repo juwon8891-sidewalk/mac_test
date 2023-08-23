@@ -123,8 +123,8 @@ xcuserdata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.toptal.com/developers/gitignore/api/xcode,cocoapods,swiftpackagemanager,swift
-stepin/Resource/Info.plist
-stepin/Resource/GoogleService-Info.plist
+# stepin/Resource/Info.plist
+# stepin/Resource/GoogleService-Info.plist
 *ds_store
 gc_keys.json
 **.env
