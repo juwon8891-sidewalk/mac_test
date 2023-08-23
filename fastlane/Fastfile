@@ -7,7 +7,7 @@ platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
     unlock_keychain(
-      path: "/Users/runner/Library/Keychains/login.keychain-db",
+      path: "login.keychain-db",
       password: "3325",
       add_to_search_list: :replace
     )

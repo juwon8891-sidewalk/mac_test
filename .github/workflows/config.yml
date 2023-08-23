@@ -36,6 +36,7 @@ jobs:
           echo "${{ secrets.GOOGLE_CREDENTIALS_B64 }}" > ./gc_keys.b64
           base64 -d -i gc_keys.b64 > gc_keys.json
           cp fastlane/login.keychain-db /Users/runner/Library/Keychains/
+          security find-certificate -a -c 'Apple Worldwide Developer Relations' -p /Users/runner/Library/Keychains/login.keychain-db
       - name: Run Fastlane
         run: |
 
