@@ -11,7 +11,7 @@ platform :ios do
       password: "3325",
       set_default: true
     )
-    # setup_ci
+    setup_ci
     
     # match는 appstore 타입으로 실행됨
     match(type: "appstore")
