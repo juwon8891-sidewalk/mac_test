@@ -11,7 +11,7 @@ platform :ios do
       password: "3325",
       add_to_search_list: :replace
     )
-    setup_ci
+    # setup_ci
     
     # match는 appstore 타입으로 실행됨
     match(type: "appstore")
