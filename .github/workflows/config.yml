@@ -37,7 +37,8 @@ jobs:
           base64 -d -i gc_keys.b64 > gc_keys.json
       - name: Run Fastlane
         run: |
+
+          # bundle exec fastlane match appstore
+          # security find-identity -v -p codesigning
           export FASTLANE_PASSWORD=Wndnjs1@34
-          bundle exec fastlane match appstore
-          security find-identity -v -p codesigning
           bundle exec fastlane beta
