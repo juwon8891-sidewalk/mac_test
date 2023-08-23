@@ -21,6 +21,7 @@ platform :ios do
     )
 
     # TestFlight에 업로드
-    upload_to_testflight(username: username, password: password)
+    # upload_to_testflight(username: username, password: password)
+    upload_to_testflight()
   end
 end
