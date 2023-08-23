@@ -27,8 +27,8 @@ jobs:
           gem install bundler
           bundle install
 
-      - name: Pod install
-        run: pod install
+      # - name: Pod install
+      #   run: pod install
 
       - name: Generate Keystore file from Github Secrets
         run: |
